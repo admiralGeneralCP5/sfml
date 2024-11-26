@@ -1,0 +1,27 @@
+#!/bin/bash
+
+sudo apt update
+
+# installs sfml library
+sudo apt install -y libsfml-dev 
+
+# installing other tools
+sudo apt install -y neovim 
+sudo apt install -y wget 
+sudo apt install -y g++
+
+# made new directory and and go into it
+mkdir sfml
+cd sfml
+
+# get main.cpp
+wget https://raw.githubusercontent.com/admiralGeneralCP5/sfml/refs/heads/main/main.cpp
+
+# compiling code
+g++ -c main.cpp
+g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+
+# running the app
+./sfml-app
+
+
