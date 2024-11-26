@@ -37,6 +37,7 @@ nvim main.cpp
 
 In nvim type `i` then paste the following code
 ```cpp
+// test file from SFML: https://www.sfml-dev.org/tutorials/2.6/start-linux.php
 #include <SFML/Graphics.hpp>
 
 int main()
@@ -119,6 +120,7 @@ nvim main.cpp
 
 In nvim type `i` then paste the following code
 ```cpp
+// test file from SFML: https://www.sfml-dev.org/tutorials/2.6/start-linux.php
 #include <SFML/Graphics.hpp>
 
 int main()
